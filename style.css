@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'NanumSquareNeo-Variable';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_11-01@1.0/NanumSquareNeo-Variable.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'yg-jalnan';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_four@1.2/JalnanOTF00.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+html, body{
+    font-family: 'NanumSquareNeo-Variable';
+    margin:0px;
+    scroll-behavior: smooth; 
+    height: 100%;
+    /* font-size:10px */
+}
+a{
+    text-decoration:none;
+    color: #6d6d6d;
+}
+#top-nav{
+    display: flex;
+    background-color: #efefef;
+    flex-direction: row;
+    align-items: center;
+    height: 5%;
+}
+#top-logo{
+    width: 50px;
+}
+.tab{
+    margin: 10px;
+    font-size: 1vw;
+}
+
+#section1{
+    /* background-color: azure; */
+    /* height: 2000px; */
+    /* transition: all 1s ease-in; */
+    height: 100%;	
+}
+#section1-top{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section1-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size:1.5vw;
+}
+#sub-content{
+    color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1vw;
+}
+#section2{
+    background-color: #d7dde4;
+    height: 100%;
+
+}
+
+#section2-top{
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section2-middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
